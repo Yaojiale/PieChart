@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.pancake{
+			position: relative;
+			width: 100px;
+			line-height: 100px;
+			border-radius: 50%;
+			background:yellowgreen;
+			background-image: linear-gradient(to right,transparent 50%,#655 0);
+			color: transparent;
+			text-align: center;
+			overflow: hidden;
+		}
+		@keyframes spin {
+			to {
+				transform :rotate(.5turn);
+			}
+		}
+		@keyframes bg {
+			50% {background:#655;}
+		}
+	</style>
+</head>
+<body>
+	<div class="pancake" id='pancake'>
+		1
+	</div>
+	<script type="text/javascript" src="js/pancake.js"></script>
+</body>
+</html>
